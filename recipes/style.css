@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+}
+
+section {
+  display: flex;
+  padding: 10px 2rem;
+  gap: 2rem;
+  text-align: left;
+}
+img {
+  width: 60%;
+  height: 400px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: transparent solid 2px;
+}
+.nav a:hover {
+  border: black solid 2px;
+}
+
+.desc {
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+.section-2 > * {
+  flex: 1;
+}
